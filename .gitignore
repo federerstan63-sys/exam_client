@@ -1,0 +1,27 @@
+# Python 虚拟环境
+.venv/
+.venv313/
+
+# PyInstaller 打包中间文件
+build/
+dist/
+*.spec.bak
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 运行时数据（每台电脑自己生成，不需要上传）
+data/
+*.db
+*.log
+
+# macOS 系统文件
+.DS_Store
+
+# 离线安装包中的大型二进制文件（Python 安装包、Windows 补丁）
+# 这些文件体积大，通过 U 盘分发，不需要上传到 GitHub
+offline_installer/*.exe
+offline_installer/*.msu
+offline_installer/*.docx
