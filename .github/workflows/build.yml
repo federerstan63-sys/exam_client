@@ -10,7 +10,7 @@ on:
 jobs:
   build-windows:
     # 使用微软提供的 Windows Server 2019 云服务器（免费）
-    runs-on: windows-2019
+    runs-on: windows-latest
 
     steps:
       # 第一步：拉取代码
